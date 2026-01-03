@@ -1,0 +1,70 @@
+==> Core Concepts & Fundamental Building Blocks <==
+---> Big Data Storage
+---> Client-Server Architecture
+---> Computer Networking
+---> Caching 
+---> Database
+---> Load Balancing
+---> Message Queues
+---> Monitoring 
+---> Operating System
+---> Resources Organize
+---> Security 
+---> System Architecture 
+
+__________Topics to Study__________
+=> Low-Level Design
+=> High-Level Design
+=> Functional Requirement 
+=> Non-Functional Requirement
+=> Horizontal Scaling
+=> Vertical Scaling
+=> Caching
+=> Monoliths
+=> Microservices
+=> Load Balancer
+
+High-Level System Design
+Chapter 1.-> Fundamentals
+Chapter 2.-> Database
+Chapter 3.-> Consistency & Availability
+Chapter 4.-> Cache
+Chapter 5.-> Networking
+Chapter 6.-> Load Balancer
+Chapter 7.-> Message Queues
+Chapter 8.-> System Architecture
+Chapter 9.-> Monitoring & Logging
+Chapter 10.-> Security
+Chapter 11.-> System Design Tradeoff
+
+Low-Level System Design
+Chapter 1.-> OOPs
+Chapter 2.-> Design Patterns
+Chapter 3.-> Concurrency & Thread Safety
+Chapter 4.-> UML Diagrams
+Chapter 5.-> APIs
+Chapter 6.-> Common LLD Problems 
+
+
+/*User Based Metrics*\
+--> Total User = 100K
+--> Active User 
+------> Daily Active User 
+------> Weekly Active User 
+------> Monthly Active User 40%
+--> Concurrent User 
+------> Monthly Concurrent User 3.5% 
+
+/*Request Per Second*\
+--> Total Concurrent Users = 1400
+--> Estimated API calls by each user per minutes = 5
+--> RPS = 1400*5/60 = 116.6 ~ 117
+
+
+
+=>> AWS EC2
+=>> AWS SQS
+=>> AWS SNS
+=>> Load Balancer Algorithm
+=>> Elastic Load Balancer
+=>> API Gateway

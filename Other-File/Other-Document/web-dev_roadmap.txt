@@ -1,0 +1,86 @@
+=> HTML (Mark-Up Language)
+-----------> {Practice -- 30 Hours}
+
+=> CSS (Styling Language)
+-----------> {Practice -- 50 Hours}
+
+==> Tailwind (Framework)
+-----------> {Practice -- 20 Hours}
+
+==> Bootstrap (Framework)
+-----------> {Practice -- 10 Hours}
+
+==> SASS/SCSS (Preprocessor)
+-----------> {Practice -- 10 Hours}
+
+=> JavaScript (Interactivity)
+-----------> {Practice -- 100 Hours}
+
+==> React JS (UI Design)
+-----------> {Practice -- 80 Hours}
+
+===> React Router (Routing)
+-----------> {Practice -- 50 Hours}
+
+===> Context API/Redux (State Management)
+-----------> {Practice -- 80 Hours}
+
+===> React Query/Axion/Fetch API (Data Fetching)
+-----------> {Practice -- 20 Hours}
+
+==> Node JS (Back-End Runtime)
+-----------> {Practice -- 40 Hours}
+
+==> Express JS (Framework) 
+-----------> {Practice -- 30 Hours}
+
+==> Next JS (CSR) (SSR) (SSG) (ISR) 
+-----------> (Practice -- 50 Hours)
+
+==> Nest JS (Scaling) 
+-----------> {Practice -- 30 Hours}
+
+=> Git/GitHub/GitLab (Version Control System)
+-----------> {Practice -- 20 Hours}
+
+=> NPM/PNMP/YARN/BUN (Package Manager)
+
+=> Prettier/ESLint (Linter)
+
+=> Webpack/Vite/Parcel (Bundler)
+
+=> Jest/Vitest/Cypress (Testing)
+
+=> TypeScript (Type-Safety)
+
+=> RestAPI/SOAP/GraphQL (APIs)
+
+=> JWT/Auth/OAuth/Session/API Key/2FA/SSO (API Authentication)
+
+=> RBAC/PBAC/ABAC (API Authorization)
+
+=> Input Validation/Input Sanitization/Rate Limiting (API Protection)
+
+=> Vercel/Netlify/AWS/Azure (Deployment)
+
+=> CORS/HTTPS/OWASP/CSP/CSRF/XSS (Web Security)
+
+=> Lazy Loading/Code Splitting/Memoization/Web Vitals/Image Optimization/Tree Shaking (Performance Optimization)
+
+=> Jenkins/GitHub-Action/CircleCI (CI/CD Pipeline)
+
+=> MongoDB (Non-Relational Database) 
+	-> Mongoose (ODM) 
+
+=> PostgreSQL (Relational Database)
+	-> Prisma (ORM)
+
+=> Redis (Caching)
+
+=> Nginx/Apache (Web Server)
+
+=> Kubernetes/Docker (Containerization)
+
+=> (APIs Development)
+
+=> Unit Testing, API Testing, End-to-End Testing (Testing)
