@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Choose the products you want to purchase</h1>
+    </header>
+
+    <main>
+        <article id="product-laptop">
+            <section class="product-images">
+                <figure>
+                    <img src="../Other-File/Media-Library/thinkpad-main.avif" alt="lenovo-thinkpad-x1-carbon-laptop">
+                </figure>
+                <figcaption>Lenovo ThinkPad X1 Carbon</figcaption>
+
+                <div class="more-img">
+                    <img src="../Other-File/Media-Library/thinkpad 2.avif" alt="lenovo-thinkpad-x1-carbon-laptop" width="350px">
+                    <img src="../Other-File/Media-Library/thinkpad 4.avif" alt="lenovo-thinkpad-x1-carbon-laptop-a-d-shell-image" width="350px">
+                    <img src="../Other-File/Media-Library/thinkpad 3.webp" alt="lenovo-thinkpad-x1-carbon-laptop-b-c-shell-image" width="350px">
+                </div>
+            </section>
+
+            <section class="product-overview">
+                <h2>Lenovo ThinkPad X1 Carbon</h2>
+            <p>Brand: Lenovo</p>
+            <p>Price: <s>$1,299</s> $1,099</p>
+            <span>
+                Rating: 4.8/5 
+                &#9733; &#9733; &#9733; &#9733; &#9733;
+            </span>
+            <p>Stock Status: <span style="color: green; font-weight: 700;">In Stock</span> (42 Units left)</p>
+            </section>
+
+            <section class="checkout">
+                <label for="select">Select Model</label>
+                <select id="select" name="select" style="height: 35px; margin-left: 10px;" required>
+                    <option value="model1">X1 Carbon Gen 12 - i7 / 16GB / 512GB - $1,099</option>
+                    <option value="model2">X1 Carbon Gen 12 - i5 / 16GB / 512GB - $999</option>
+                    <option value="model3">X1 Carbon Gen 12 - i7 / 32GB / 1TB - $1,399</option>
+                </select>
+                <br>
+            
+                <label for="color">Select Color</label>
+                <select id="color" name="color" style="height: 35px; margin-left: 10px;" required>
+                    <option value="black">Black (Matte)</option>
+                    <option value="silver">Silver (Matte)</option>
+                </select>
+                <br> <br>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" max="10" style="width: 50px; height: 28px; margin-left: 10px;">
+
+                <button type="button" style="padding: 10px 20px; background-color: blue; color: white; border: 1px solid blue; border-radius: 5px; box-sizing: border-box; cursor: pointer;">
+                Add to Cart
+                </button>
+
+                <a href="#" class="wishlistBtn" style="padding: 10px 20px; background-color: white; color: blue; border: 1px solid blue; border-radius: 5px; box-sizing: border-box;">Add to Wishlist</a>
+            </section>
+
+            <section class="product-description">
+                <h2>Product Features:</h2>
+                <ul>
+                    <li>14" UHD (3840 x 2160) IPS, Anti-Reflective, Anti-Smudge, 500 nits, Dolby Vision</li>
+                    <li>Intel Core i7-1165G7 (2.8GHz up to 4.7GHz with Turbo Boost, 12MB Cache)</li>
+                    <li>16GB LPDDR4x 4266MHz (Soldered)</li>
+                    <li>1TB PCIe SSD M.2 2280</li>
+                    <li>Intel Iris Xe Graphics</li>
+                    <li>Windows 10 Pro 64</li>
+                </ul>
+
+                <h2>Product Details:</h2>
+                <table border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <th>Specification</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <th>Model</th>
+                        <td>X1 Carbon Gen 12</td>
+                    </tr>
+                    <tr>
+                        <th>SKU</th>
+                        <td>TPX1C11-i7-16-512-W11P</td>
+                    </tr>
+                    <tr>
+                        <th>Color</th>
+                        <td>Black (Matte)</td>
+                    </tr>
+                    <tr>
+                        <th>Material</th>
+                        <td>Carbon fiber top cover, Magnesium alloy bottom</td>
+                    </tr>
+                    <tr>
+                        <th>Dimension</th>
+                        <td>12.4" x 8.8" x 0.6" (315 x 222 x 15mm)</td>
+                    </tr>
+                    <tr>
+                        <th>Weight</th>
+                        <td>2.48 lbs (1.12 kg)</td>
+                    </tr>
+                    <tr>
+                        <th>Screen Size</th>
+                        <td>14 inches</td>
+                    </tr>
+                    <tr>
+                        <th>Resolution</th>
+                        <td>1920 x 1200 (WUXGA)</td>
+                    </tr>
+                    <tr>
+                        <th>Display Type</th>
+                        <td>IPS, Anti-glare, 400 nits</td>
+                    </tr>
+                    <tr>
+                        <th>Processor</th>
+                        <td>Intel Core i7-1365U (10 cores)</td>
+                    </tr>
+                    <tr>
+                        <th>RAM</th>
+                        <td>16GB LPDDR5 (soldered)</td>
+                    </tr>
+                    <tr>
+                        <th>Storage</th>
+                        <td>512GB PCIe Gen 4 SSD</td>
+                    </tr>
+                    <tr>
+                        <th>Graphics</th>
+                        <td>Intel Iris Xe Graphics</td>
+                    </tr>
+                    <tr>
+                        <th>Battery</th>
+                        <td>57Wh Li-Polymer</td>
+                    </tr>
+                    <tr>
+                        <th>Battery Life</th>
+                        <td>Up to 15 hours (MM18)</td>
+                    </tr>
+                    <tr>
+                        <th>Ports</th>
+                        <td>2x Thunderbolt 4, 2x USB-C, HDMI 2.1, Headphone jack</td>
+                    </tr>
+                    <tr>
+                        <th>Wireless</th>
+                        <td>Wi-Fi 6E, Bluetooth 5.3, 5G optional</td>
+                    </tr>
+                    <tr>
+                        <th>Camera</th>
+                        <td>1080p FHD + IR with ThinkShutter</td>
+                    </tr>
+                    <tr>
+                        <th>Audio</th>
+                        <td>Dolby Atmos, 4x speakers</td>
+                    </tr>
+                    <tr>
+                        <th>Keyboard</th>
+                        <td>Backlit, Spill-resistant with TrackPoint</td>
+                    </tr>
+                    <tr>
+                        <th>Security</th>
+                        <td>Fingerprint reader, IR camera, dTPM 2.0</td>
+                    </tr>
+                    <tr>
+                        <th>OS</th>
+                        <td>Windows 11 Pro 64-bit</td>
+                    </tr>
+                    <tr>
+                        <th>Warranty</th>
+                        <td>3 years onsite service</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
