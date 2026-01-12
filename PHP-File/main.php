@@ -17,5 +17,9 @@
     echo "\nMy name is " . $myName . " and I am a " . $myProfession . ".";
 ?>
 
+<script>
+    console.log("Print Hello World! using JavaScript");
+    alert("A basic Pop-Up message from JS!");
+</script>
 </body>
 </html>
